@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tentativa de Homicídio </title>
+</head>
+
+<body>
+    <span>
+        Envie uma mensagem preenchendo o formulário abaixo:
+    </span>
+    <form class="form-group" action="../php/index.php" method="get">
+        <label> Seu Nome: </label>
+            <input type="text" id="nome" name="nome"> <br>
+        <label> Seu Telefone: </label>
+            <input type="text" id="telefone" name="telefone"> <br>
+        <label> Seu E-mail: </label>
+            <input type="text" id="e-mail" name="e-mail"> <br>
+        <label> Deseja receber nossas novidades? </label>
+            <input id="novidades" name="novidades" type="radio"> Sim
+            <input id="novidades" name="novidades" type="radio"> Não <br>
+        <label> Sua mensagem: </label>
+            <textarea id="mensagem" name="mensagem"> </textarea> <br>
+            <input value="Enviar" type="submit">
+    </form>
+</body>
+
+</html>
